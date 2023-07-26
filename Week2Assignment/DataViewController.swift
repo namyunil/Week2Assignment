@@ -15,7 +15,8 @@ class DataViewController: UIViewController {
     @IBOutlet var forthResultLabel: UILabel!
     @IBOutlet var fifthResultLabel: UILabel!
     
-    @IBOutlet var firstScoreLabel: UILabel!
+    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,6 +27,7 @@ class DataViewController: UIViewController {
         designLabel(label: forthResultLabel, backgroundColor: .systemBlue)
         designLabel(label: fifthResultLabel, textcolor: .white, backgroundColor: .systemPurple)
     }
+    
     
     func designLabel(label: UILabel, textcolor: UIColor = .black, backgroundColor: UIColor) {
         label.textColor = textcolor

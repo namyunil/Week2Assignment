@@ -7,10 +7,11 @@
 
 import Foundation
 
-enum emotion: String {
-    case firstButton = "emoji1"
-    case secondButton = "emoji2"
-    case thirdButton = "emoji3"
-    case forthButton = "emoji4"
-    case fifthButton = "emoji5"
+enum Emotion: Int {
+    case superHappy = 1
+    case happy
+    case normal
+    case sad
+    case superSad
 }
+

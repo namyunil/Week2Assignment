@@ -22,34 +22,39 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ds2-zH-JRh">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="133.33333333333334"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <buttonConfiguration key="configuration" style="plain"/>
                                         <connections>
                                             <action selector="emotionButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3wY-wU-644"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Zg-Pz-0vO">
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Zg-Pz-0vO">
                                         <rect key="frame" x="0.0" y="133.33333333333334" width="393" height="133.00000000000003"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <buttonConfiguration key="configuration" style="plain"/>
                                         <connections>
                                             <action selector="emotionButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l67-VB-74u"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XUA-BS-OM9">
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XUA-BS-OM9">
                                         <rect key="frame" x="0.0" y="266.33333333333331" width="393" height="133.33333333333331"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <buttonConfiguration key="configuration" style="plain"/>
                                         <connections>
                                             <action selector="emotionButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="whZ-br-YHq"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KVy-RM-Tbo">
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KVy-RM-Tbo">
                                         <rect key="frame" x="0.0" y="399.66666666666669" width="393" height="133.00000000000006"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <buttonConfiguration key="configuration" style="plain"/>
                                         <connections>
                                             <action selector="emotionButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VKx-Vh-ZOZ"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jri-Rk-OXh">
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jri-Rk-OXh">
                                         <rect key="frame" x="0.0" y="532.66666666666663" width="393" height="133.33333333333337"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <buttonConfiguration key="configuration" style="plain"/>
                                         <connections>
                                             <action selector="emotionButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rc9-3B-awu"/>
                                         </connections>
@@ -141,10 +146,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G5d-SK-lQF">
-                                <rect key="frame" x="294" y="441" width="50" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ZDL-Qz-snc"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
