@@ -24,29 +24,43 @@ class EmotionViewController: UIViewController {
         case fifthButton = "emoji5"
     }
     
+//    var config = UIButton.Configuration.filled()
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        designEmotionButton(button: firstButton, image: emotion.firstButton.rawValue, backgroundColor: .systemPink)
-        designEmotionButton(button: secondButton, image: emotion.secondButton.rawValue, backgroundColor: .systemYellow)
-        designEmotionButton(button: thirdButton, image: emotion.thirdButton.rawValue, backgroundColor: .systemGreen)
-        designEmotionButton(button: forthButton, image: emotion.forthButton.rawValue, backgroundColor: .systemBlue)
-        designEmotionButton(button: fifthButton, image: emotion.fifthButton.rawValue, backgroundColor: .systemPurple)
+        designEmotionButton(button: firstButton, emotionImage: emotion.firstButton.rawValue, backgroundColor: .systemPink)
+        designEmotionButton(button: secondButton, emotionImage: emotion.secondButton.rawValue, backgroundColor: .systemYellow)
+        designEmotionButton(button: thirdButton, emotionImage: emotion.thirdButton.rawValue, backgroundColor: .systemGreen)
+        designEmotionButton(button: forthButton, emotionImage: emotion.forthButton.rawValue, backgroundColor: .systemBlue)
+        designEmotionButton(button: fifthButton, emotionImage: emotion.fifthButton.rawValue, backgroundColor: .systemPurple)
 
 
         
         
     }
     
-    func designEmotionButton(button: UIButton , image: String, backgroundColor: UIColor) {
+//    func designEmotionButton(button: UIButton, emotionImage: String, backgroundColor: UIColor) {
+//
+//
+//        config.image = UIImage(named: "")
+//        config.baseBackgroundColor = backgroundColor
+//        config.baseForegroundColor = .white
+//
+//        let button = UIButton(configuration: config)
+//    }
+
+
+    func designEmotionButton(button: UIButton , emotionImage: String, backgroundColor: UIColor) {
         
         button.backgroundColor = backgroundColor
-        button.setImage(UIImage(named: image), for: .normal)
+        button.setImage(UIImage(named: emotionImage), for: .normal)
         button.tintColor = .white
         
-        
     }
+    
+    
     
     func countButtonTapped(button: UIButton) {
         

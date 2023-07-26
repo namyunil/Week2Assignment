@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F6433E02A709AB9005C6031 /* Enumeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6433DF2A709AB9005C6031 /* Enumeration.swift */; };
 		9FE02CC92A707CBC00D4E4B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE02CC82A707CBC00D4E4B1 /* AppDelegate.swift */; };
 		9FE02CCB2A707CBC00D4E4B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE02CCA2A707CBC00D4E4B1 /* SceneDelegate.swift */; };
 		9FE02CCD2A707CBC00D4E4B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE02CCC2A707CBC00D4E4B1 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F6433DF2A709AB9005C6031 /* Enumeration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enumeration.swift; sourceTree = "<group>"; };
 		9FE02CC52A707CBC00D4E4B1 /* Week2Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week2Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FE02CC82A707CBC00D4E4B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FE02CCA2A707CBC00D4E4B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				9FE02CCE2A707CBC00D4E4B1 /* Main.storyboard */,
 				9FE02CDE2A70917900D4E4B1 /* DataViewController.swift */,
 				9FE02CDC2A707EEB00D4E4B1 /* EmotionViewController.swift */,
+				9F6433DF2A709AB9005C6031 /* Enumeration.swift */,
 				9FE02CD12A707CC100D4E4B1 /* Assets.xcassets */,
 				9FE02CD32A707CC100D4E4B1 /* LaunchScreen.storyboard */,
 				9FE02CD62A707CC100D4E4B1 /* Info.plist */,
@@ -149,6 +152,7 @@
 				9FE02CDF2A70917900D4E4B1 /* DataViewController.swift in Sources */,
 				9FE02CC92A707CBC00D4E4B1 /* AppDelegate.swift in Sources */,
 				9FE02CCB2A707CBC00D4E4B1 /* SceneDelegate.swift in Sources */,
+				9F6433E02A709AB9005C6031 /* Enumeration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
